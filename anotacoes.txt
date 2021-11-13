@@ -1,0 +1,53 @@
+ yarn add ts-node-dev -D
+
+ "scripts": {
+    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+  },
+
+//"strict": true, verifica erros, deixar desabilitado
+
+debug
+"version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        }
+    ]
+}
+
+
+DTO - Data Transfer Object
+interface
+
+SOLID - Single Responsibility Principle
+S - Single Responsibility Principle
+O - Open-Closed Principle
+L - Liskov Substitution Principle
+I - Interface Segregation Principle
+D - Dependency Inversion Principle
+
+throw new Error
+
+handle
+
+singleton
+
+multer- arquivos
+
+import fs from 'fs';
+csv parse
+
+
+async
+
+Swagger Documentação
+yarn add swagger-ui-express
+"resolveJsonModule": true                           /* Resolve modules referenced by `.json` files. */
