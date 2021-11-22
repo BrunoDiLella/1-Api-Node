@@ -51,3 +51,45 @@ async
 Swagger Documentação
 yarn add swagger-ui-express
 "resolveJsonModule": true                           /* Resolve modules referenced by `.json` files. */
+
+Docker
+docker build -t api_node .
+
+Docker compose
+docker-compose.yml
+docker-compose up 
+docker logs Api -f
+
+
+typeorm
+yarn add typeorm reflect-metadata
+yarn add pg
+
+ "experimentalDecorators": true,                   /* Enable experimental support for TC39 stage 2 draft decorators. */
+     "emitDecoratorMetadata": true,                    /* Emit design-type metadata for decorated declarations in source files. */
+
+     migrations
+     yarn typeorm migration:create -n CreateCategories
+
+        yarn typeorm migration:run
+        revert
+        Entity
+
+        Tsyringe
+        yarn add tsyringe
+
+        bcrypt
+
+        JWT - JSON Web Token
+        jsonwebtoken 
+
+    Middleware
+
+    try - catch
+
+    errors
+    yarn add express-async-errors
+
+    @types
+
+        
