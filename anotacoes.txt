@@ -92,4 +92,44 @@ yarn add pg
 
     @types
 
-        
+Testes initarios
+
+Testes de Integracao
+routes -> controllers -> useCases -> repository
+
+TDD
+
+yarn add jest @types/jest -D
+
+yarn jest --init
+
+yarn add ts-jest -D
+
+jest.config.ts
+// A preset that is used as a base for Jest's configuration
+  preset: 'ts-jest',
+   // The glob patterns Jest uses to detect test files
+  testMatch: ['**/*.spec.ts'],
+   // Stop running tests after `n` failure
+  bail: true,
+
+
+  imports
+  "baseUrl": "./src",                                  /* Specify the base directory to resolve non-relative module names. */
+    "paths": {
+      "@modules/*": ["modules/*"],
+      "@config/*": ["config/*"],
+      "@shared/*": ["shared/*"],
+      "@erros/*": ["erros/*"],
+    },  
+
+    yarn add tsconfig-paths -D
+    -r tsconfig-paths/register
+
+    TDD
+
+    seed - adm
+    
+
+    chave estrangeira - 
+    
